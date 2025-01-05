@@ -1,0 +1,33 @@
+body {
+    
+    text-align: center;
+    font-family: monospace;
+    margin: 20px;
+}
+
+#mainContainer {
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    height: 960px;
+    border: 1px solid black;
+}
+
+.square {
+    border: 1px solid #eeee;
+    box-sizing: border-box;
+    flex: 1 0 auto;
+}
+
+.numSquaresBtn {
+    background-color: #98adf3ee;
+    color: white;
+    padding: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: monospace;
+    box-shadow: inset;
+    margin: 16px;
+}
